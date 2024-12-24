@@ -12,12 +12,12 @@ public class Mycon {
 
 @GetMapping("/general")
  public ResponseEntity<String> generalUser(){
-    return ResponseEntity.ok("I am general User");
+    return ResponseEntity.ok("Yes, I am general User");
   }
 
 @GetMapping("/public")
  public ResponseEntity<String> publicUser(){
-    return ResponseEntity.ok("I am Public User");
+    return ResponseEntity.ok("Yes, I am Public User");
   }
 
 @GetMapping("/admin")
