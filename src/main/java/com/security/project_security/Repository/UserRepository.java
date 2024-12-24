@@ -1,5 +1,6 @@
 package com.security.project_security.Repository;
 
-public class UserRepository {
+public interface UserRepository {
+
     
-}
+} 
