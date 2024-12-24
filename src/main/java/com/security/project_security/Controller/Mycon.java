@@ -22,7 +22,7 @@ public class Mycon {
 
 @GetMapping("/admin")
  public ResponseEntity<String> Admin(){
-    return ResponseEntity.ok("I am Admin");
+    return ResponseEntity.ok("Yes, I am Admin");
   }
     
 
